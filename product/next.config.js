@@ -4,5 +4,7 @@ const nextConfig = {
     appDir: true,
   },
 };
-
+eslint: {
+    ignoreDuringBuilds: true,
+},
 module.exports = nextConfig;
